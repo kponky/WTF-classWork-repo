@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}      
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,800;1,6..12,900;1,6..12,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+/* universal  styling  */
+
+/* #padd-1{
+    padding: 10px 20px 2px 20px;
+} */c
+
+.container{
+    /* background-color: #F3F3F3; */
+    background-color: white;
+    
+}
+
+.nav-items{
+    display: flex;
+    background-color: #f3f3f3;
+    height: 50px;
+    justify-content: space-between;
+    padding: 10px 50px;
+    
+    width: 100%;
+}
+
+.menuIcon{
+    display: block;
+
+}
+
+.nav-items h3{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.cart-Login{
+    display: flex;
+   gap: 10px;
+   font-size: 16px;
+   
+}
+
+.m1{
+width: 30px;
+height: 3.2px;
+background-color: black;
+  margin: 5px 0;
+}
+
+.m2{
+width: 25px;
+height: 3.2px;
+background-color: black;
+margin: 5px 0;
+}
+
+.m3{
+width: 20px;
+height: 3.2px;
+background-color: black;
+margin: 5px 0;
+}
+
+.hero-sect{
+    display: flex;
+    justify-items: center;
+    padding-top: 100px;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    width: 100%;
+  padding-bottom: 30px;
+  
+
+}
+
+.hero-sect .text{
+    width: 50%;
+    padding: 10px 50px ;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    color: black;
+    
+}
+
+.hero-sect .text h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-sect .text .txt1{
+    width: 300px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.hero-sect .text .txt2,
+.hero-sect .text .txt3{
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.hero-sect .text .txt2 span{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.hero-sect .text .txt3 span{
+    font-weight: bold;
+
+}
+
+.hero-sect .text .btn, .btn{
+    width: 155px;
+    padding:  10px 50px;
+    font-size: 17px;
+    background-color: white;
+    margin-top: 50px;
+    border: 1.5px solid black;
+}
+
+
+.fa-text{
+    display: flex;
+    gap: 15px;
+    margin-top: 120px;
+    padding-left: 80px;
+}
+
+.fa-text .fa,
+.fa-txt .fa{
+font-size: 24px;
+font-weight: 700;
+}
+
+
+img{
+    width: 100%;
+    height:100%;
+}
+
+.h-img{
+    width: 40%;
+    height: 50%;
+    object-fit: contain;
+    padding:  20px 50px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.h-img .fa-txt{
+position: absolute;
+top: 17rem;
+left: 190px;
+display: flex;
+gap: 20px;
+}
+
+
+.diplay-item{
+    display: flex;
+    justify-content: center;  
+    gap: 10px;
+}
+
+
+.display-item-txt{
+   padding-top: 50px;
+   padding-left: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 100px;  
+}
+
+.item-desc{
+    width: 30%;
+    min-width: 289px;
+    padding: 10px 12px;
+    height: 390px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+        /* box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06); */
+
+}
+
+.item-desc .fa{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+}
+
+.item-desc img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin-left: auto;
+margin-right: auto;
+}
+
+
+
+.item-desc .btn{
+    align-self: center;
+    margin-top: 35px;
+}
+
+.item-desc p{
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+ 
+}
+
+.item-desc .id1{
+    width: 50%;
+align-self: center;  
+/* background-color: red;  */
+/* margin-top: 10px;  */
+}
+
+.item-desc span{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 799px) {
+    .nav-items{
+        background-color: #f3f3f3;
+        padding: 10px 30px;
+        
+    }
+
+
+    
+
+    .h-img .fa-txt {
+        position: absolute;
+        top: 14rem;
+        left: 50px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .fa-text {
+        display: flex;
+        gap: 10px;
+        margin-top: 100px;
+        padding-left: 50px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px 50px;
+    }
+
+
+}
+
+
+@media (max-width: 477px) {
+    .hero-sect {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        /* justify-content: space-between; */
+        background-color: #f3f3f3;
+        width: 100%;
+        padding-bottom: 80px;
+
+     
+    }
+
+    .hero-sect .text {
+        width: 100%;
+        padding: 10px 30px;
+        margin-top: -50px;
+        
+      
+    }
+
+    .fa-text {
+       
+        margin-top: 20px;
+        padding-left: 4px;
+    }
+
+    .hero-sect .text .btn, .btn {
+        width: 155px;
+        padding: 10px 50px;
+        font-size: 17px;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    .h-img {
+        width: 70%;
+        height: 70%;
+        object-fit: contain;
+        padding: 20px 50px;
+        margin-top: 30px;
+        position: relative;
+    }
+
+  
+    .h-img .fa-txt {
+        position: absolute;
+        top: 10rem;
+        left: 40px;
+        display: flex;
+        gap: 10px;
+       
+    }
+
+    .cards {
+        padding: 30px 45px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,12 @@
+.logoWrapper{
+    display: flex;
+}
+
+.heading{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    width: 15px;
+}
