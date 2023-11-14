@@ -24,14 +24,12 @@
     background-color: #f3f3f3;
     height: 50px;
     justify-content: space-between;
-    padding: 10px 50px;
-    
+    padding: 15px 60px;
     width: 100%;
 }
 
 .menuIcon{
     display: block;
-
 }
 
 .nav-items h3{
@@ -41,10 +39,14 @@
 }
 
 .cart-Login{
-    display: flex;
+display: flex;
    gap: 10px;
    font-size: 16px;
-   
+}
+
+.cart-Login img{
+    width: 20px;
+    height: 20px;
 }
 
 .m1{
@@ -75,19 +77,16 @@ margin: 5px 0;
     justify-content: space-between;
     background-color: #f3f3f3;
     width: 100%;
-  padding-bottom: 30px;
-  
-
+    padding-bottom: 30px;
 }
 
 .hero-sect .text{
     width: 50%;
-    padding: 10px 50px ;
+    padding: 10px 60px ;
     display: flex;
     flex-direction: column;
     background-color: #f3f3f3;
-    color: black;
-    
+    color: black;  
 }
 
 .hero-sect .text h1{
@@ -152,8 +151,8 @@ img{
     width: 40%;
     height: 50%;
     object-fit: contain;
-    padding:  20px 50px;
-    margin-top: 50px;
+    padding:  20px 60px;
+    margin-top: 30px;
     position: relative;
 
 }
@@ -171,6 +170,13 @@ gap: 20px;
     display: flex;
     justify-content: center;  
     gap: 10px;
+    padding-bottom: 30px;
+}
+.display-item-txt:hover{
+    color: orangered;
+    transition: 0.3s ease-in-out;
+    /* background-color: rgba(246, 195, 195, 0.374); */
+    
 }
 
 
@@ -189,45 +195,54 @@ gap: 20px;
 .item-desc{
     width: 30%;
     min-width: 289px;
-    padding: 10px 12px;
-    height: 390px;
+    padding: 10px 13px;
+    height: 395px;
     background-color: #f3f3f3;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin: 15px 0;
     transition: 0.2s ease;
     display: flex;
     flex-direction: column;
     text-align: center;
     position: relative;
-        /* box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06); */
-
+    box-shadow: 10px 6px 2px rgba(0, 0, 0, 0.208);
 }
 
-.item-desc .fa{
+
+
+/* .item-desc .fa{
     position: absolute;
     top: 15px;
     right: 20px;
     font-size: 28px;
+} */
+
+.item-desc .cart-img{
+    width: 30px;
+    height: 40px;
+    object-fit: contain;
+    top: -4px;
+    right: 20px;
+    position: absolute;
 }
 
 .item-desc img{
     width: 50%;
     height: 50%;
+    margin-top: 20px;
     object-fit: contain;
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
 }
-
-
 
 .item-desc .btn{
     align-self: center;
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .item-desc p{
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
  
 }
@@ -236,18 +251,12 @@ margin-right: auto;
     width: 50%;
 align-self: center;  
 /* background-color: red;  */
-/* margin-top: 10px;  */
+margin-top: -7px; 
 }
 
 .item-desc span{
     margin-top: 25px;
 }
-
-
-
-
-
-
 
 
 
